@@ -21,7 +21,7 @@ const populate = async (value, currency) => {
 }
 const btn = document.querySelector(".btn")
 btn.addEventListener("click", (e) => {
-    e.preventDefault()2564899hjfdxjgjf
+    e.preventDefault()
     const value = parseInt(document.querySelector("input[name='quantity']").value);
     const currency = document.querySelector("select[name='currency']").value
     populate(value, currency)
