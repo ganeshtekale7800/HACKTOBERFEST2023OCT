@@ -10,7 +10,7 @@ const populate = async (value, currency) => {
     for (let key of Object.keys(rJson["data"])) {
         myStr += ` <tr>
                         <td>${key}</td>
-                        <td>${rJson["data"][key]["code"]}</td>ghdgfhkgkgch9898542
+                        <td>${rJson["data"][key]["code"]}</td>
                         <td>${Math.round(rJson["data"][key]["value"] * value)}</td>
                     </tr> 
                 `
