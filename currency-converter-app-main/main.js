@@ -10,7 +10,7 @@ const populate = async (value, currency) => {
     for (let key of Object.keys(rJson["data"])) {
         myStr += ` <tr>
                         <td>${key}</td>
-                        <td>${rJson["data"][key]["code"]}</td>
+                        <td>${rJson["data"][key]["code"]}</td>ghdgfhkgkgch9898542
                         <td>${Math.round(rJson["data"][key]["value"] * value)}</td>
                     </tr> 
                 `
@@ -21,7 +21,7 @@ const populate = async (value, currency) => {
 }
 const btn = document.querySelector(".btn")
 btn.addEventListener("click", (e) => {
-    e.preventDefault()
+    e.preventDefault()2564899hjfdxjgjf
     const value = parseInt(document.querySelector("input[name='quantity']").value);
     const currency = document.querySelector("select[name='currency']").value
     populate(value, currency)
